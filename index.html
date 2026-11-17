@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de fotografia — ensaios, casamentos, eventos e retratos.">
+  <title>Clara Mendes | Fotografia</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#inicio">CLARA<span>MENDES</span><small>FOTOGRAFIA</small></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menu"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfólio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          <li class="nav-item"><a class="btn btn-dark rounded-pill px-4" href="#orcamento">Solicitar orçamento</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="inicio">
+    <div class="hero-shade"></div>
+    <div class="container hero-content">
+      <p class="eyebrow text-white">FOTOGRAFIA COM SENSIBILIDADE</p>
+      <h1>Histórias reais.<br><em>Memórias eternas.</em></h1>
+      <p class="hero-copy">Fotografias feitas para guardar aquilo que merece ser lembrado.</p>
+      <a href="#portfolio" class="btn btn-light rounded-pill px-4 py-3">Explore meu trabalho <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="hero-note">FOTOGRAFIA • CURITIBA E REGIÃO</div>
+  </header>
+
+  <main>
+    <section class="section-space about-section" id="sobre">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6">
+            <div class="about-image">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1100&q=85" alt="Retrato artístico de uma mulher">
+              <span class="image-caption">OLHAR ATENTO, MOMENTOS ÚNICOS.</span>
+            </div>
+          </div>
+          <div class="col-lg-5 offset-lg-1">
+            <p class="eyebrow">UM POUCO SOBRE MIM</p>
+            <h2 class="section-title">Oi, eu sou a <em>Clara.</em></h2>
+            <p class="lead-copy">Acredito que as melhores fotografias acontecem quando você se permite viver o momento.</p>
+            <p class="muted-copy">Sou fotógrafa especializada em retratos, casamentos e histórias de família. Meu trabalho é transformar momentos espontâneos em lembranças que continuam fazendo sentido com o passar do tempo.</p>
+            <a href="#orcamento" class="text-link">Vamos criar algo especial <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space portfolio-section" id="portfolio">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">TRABALHOS SELECIONADOS</p>
+          <h2 class="section-title">Histórias em <em>imagens.</em></h2>
+          <p class="muted-copy">Um pouco de cada história que tive o prazer de registrar.</p>
+        </div>
+        <div class="filter-bar" role="group" aria-label="Filtrar fotografias">
+          <button class="filter-btn active" data-filter="todos">Todos</button>
+          <button class="filter-btn" data-filter="retratos">Retratos</button>
+          <button class="filter-btn" data-filter="casamentos">Casamentos</button>
+          <button class="filter-btn" data-filter="familia">Família</button>
+          <button class="filter-btn" data-filter="eventos">Eventos</button>
+        </div>
+        <div class="row g-4 gallery" id="gallery">
+          <div class="col-sm-6 col-lg-4 gallery-item" data-category="retratos"><button class="photo-card" data-title="Essência" data-category="Retratos" data-image="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=800&q=85" alt="Ensaio de retrato"><span><small>RETRATOS</small><strong>Essência</strong></span></button></div>
+          <div class="col-sm-6 col-lg-4 gallery-item" data-category="casamentos"><button class="photo-card" data-title="O grande dia" data-category="Casamentos" data-image="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=85" alt="Casal no dia do casamento"><span><small>CASAMENTOS</small><strong>O grande dia</strong></span></button></div>
+          <div class="col-sm-6 col-lg-4 gallery-item" data-category="familia"><button class="photo-card" data-title="Laços" data-category="Família" data-image="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=800&q=85" alt="Família reunida"><span><small>FAMÍLIA</small><strong>Laços</strong></span></button></div>
+          <div class="col-sm-6 col-lg-4 gallery-item" data-category="eventos"><button class="photo-card" data-title="Entre amigos" data-category="Eventos" data-image="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=85" alt="Celebração em evento"><span><small>EVENTOS</small><strong>Entre amigos</strong></span></button></div>
+          <div class="col-sm-6 col-lg-4 gallery-item" data-category="retratos"><button class="photo-card" data-title="Luz natural" data-category="Retratos" data-image="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=800&q=85" alt="Retrato com luz natural"><span><small>RETRATOS</small><strong>Luz natural</strong></span></button></div>
+          <div class="col-sm-6 col-lg-4 gallery-item" data-category="casamentos"><button class="photo-card" data-title="Para sempre" data-category="Casamentos" data-image="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=1400&q=90"><img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=800&q=85" alt="Noivos celebrando"><span><small>CASAMENTOS</small><strong>Para sempre</strong></span></button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space services-section" id="servicos">
+      <div class="container">
+        <div class="section-heading text-center">
+          <p class="eyebrow">COMO POSSO TE AJUDAR</p>
+          <h2 class="section-title">Momentos que merecem <em>ser guardados.</em></h2>
+        </div>
+        <div class="row g-3 mt-4">
+          <div class="col-md-6 col-lg-3"><article class="service-card"><span>01</span><h3>Retratos</h3><p>Ensaios individuais que valorizam sua personalidade e autenticidade.</p></article></div>
+          <div class="col-md-6 col-lg-3"><article class="service-card"><span>02</span><h3>Casamentos</h3><p>Os detalhes, os encontros e as emoções do seu grande dia.</p></article></div>
+          <div class="col-md-6 col-lg-3"><article class="service-card"><span>03</span><h3>Família</h3><p>Registros leves e espontâneos de fases especiais da vida.</p></article></div>
+          <div class="col-md-6 col-lg-3"><article class="service-card"><span>04</span><h3>Eventos</h3><p>Uma cobertura cuidadosa para celebrar cada conquista.</p></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-space" id="contato">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-5">
+            <p class="eyebrow">VAMOS CONVERSAR?</p>
+            <h2 class="section-title">Sua história merece ser <em>contada.</em></h2>
+            <p class="muted-copy">Conte um pouco sobre o que você está planejando. Vou adorar conhecer sua ideia e preparar uma proposta.</p>
+            <div class="contact-detail"><small>EMAIL</small><a href="mailto:oi@claramendes.com.br">oi@claramendes.com.br</a></div>
+            <div class="contact-detail"><small>LOCALIZAÇÃO</small><span>Curitiba, Paraná — atendimento na região</span></div>
+            <div class="contact-detail"><small>INSTAGRAM</small><a href="https://instagram.com/" target="_blank" rel="noreferrer">@claramendes.foto ↗</a></div>
+          </div>
+          <div class="col-lg-6 offset-lg-1" id="orcamento">
+            <form id="quoteForm" class="quote-form">
+              <div class="row g-3">
+                <div class="col-md-6"><label for="name" class="form-label">Seu nome</label><input class="form-control" id="name" name="name" required placeholder="Como posso te chamar?"></div>
+                <div class="col-md-6"><label for="email" class="form-label">Seu e-mail</label><input class="form-control" type="email" id="email" name="email" required placeholder="voce@email.com"></div>
+                <div class="col-md-6"><label for="service" class="form-label">Tipo de fotografia</label><select class="form-select" id="service" name="service" required><option value="">Selecione</option><option>Retratos</option><option>Casamento</option><option>Família</option><option>Eventos</option><option>Outro</option></select></div>
+                <div class="col-md-6"><label for="date" class="form-label">Data desejada</label><input class="form-control" type="date" id="date" name="date"></div>
+                <div class="col-12"><label for="message" class="form-label">Conte um pouco sobre sua ideia</label><textarea class="form-control" id="message" name="message" rows="4" required placeholder="Local, ocasião, quantidade de pessoas..."></textarea></div>
+                <div class="col-12"><button class="btn btn-dark rounded-pill px-4 py-3 w-100" type="submit">Enviar solicitação pelo WhatsApp ↗</button><p class="form-note mt-3 mb-0" id="formFeedback">Ao enviar, você será direcionado ao WhatsApp para concluir a conversa.</p></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between gap-3"><a class="navbar-brand" href="#inicio">CLARA<span>MENDES</span><small>FOTOGRAFIA</small></a><p>© <span id="year"></span> Clara Mendes Fotografia. Todos os direitos reservados.</p><a href="#inicio" class="back-top">VOLTAR AO TOPO ↑</a></div>
+  </footer>
+
+  <div class="modal fade" id="photoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content photo-modal-content"><button type="button" class="btn-close btn-close-white ms-auto m-3" data-bs-dismiss="modal" aria-label="Fechar"></button><img id="modalImage" src="" alt=""><div class="modal-caption"><small id="modalCategory"></small><h3 id="modalTitle"></h3></div></div></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
