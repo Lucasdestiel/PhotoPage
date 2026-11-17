@@ -124,5 +124,5 @@ Este projeto foi desenvolvido com finalidade educacional e de portfólio, buscan
 
 <img width="1342" height="644" alt="image" src="https://github.com/user-attachments/assets/04bc6ad8-e8d7-4803-a5dc-055343d7f48e" />
 <img width="1339" height="635" alt="image" src="https://github.com/user-attachments/assets/8327aa43-90c5-4ecb-a340-a3d9918632e4" />
-<img width="1339" height="635" alt="image" src="https://github.com/user-attachments/assets/ffc13261-75ed-4668-b2b3-45dca2578ec3" />
+
 
